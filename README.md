@@ -3,8 +3,11 @@
 🧠 **Introduction**
 
 ⦁ Chronic Kidney Disease (CKD) is a progressive condition where the kidneys gradually lose their ability to filter waste from the blood. Early detection is extremely important because CKD can be treated and managed to prevent complete kidney failure.
+
 ⦁ Traditional diagnosis requires clinical expertise and several lab tests. With machine learning, we can build a model that learns patterns from patient health parameters and predicts whether an individual is at risk for CKD.
+
 ⦁ This project uses clinical dataset features such as age, blood pressure, haemoglobin, serum creatinine, sugar levels, red blood cell count, and other medical indicators to classify whether a patient has CKD or Not CKD.
+
 ⦁ The final output is a Streamlit web application where users can input patient details and instantly get a prediction.
 
 📘 **Problem Statement**
