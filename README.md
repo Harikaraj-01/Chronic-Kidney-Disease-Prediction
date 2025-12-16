@@ -94,11 +94,17 @@ classification (ckd / notckd)
 Models trained:
 
 ⦁	Model	Accuracy
+
 ⦁	Random Forest Classifier	98.75%
+
 ⦁	AdaBoost Classifier	98.75%
+
 ⦁	XGBoost	96.25%
+
 ⦁	KNN	95%
+
 ⦁	Decision Tree / SVM / GBC	Lower accuracy
+
 ⦁	🏆 Best Model: Random Forest (98.75%)
 
 🔍 Hyperparameter Tuning
@@ -127,12 +133,19 @@ App Features:
 
 📁 Project Folder Structure
 📦 chronic-kidney-disease-prediction
+
 │
+
 ├── 📄 chronic-kidney-disease.ipynb       # Model training & EDA
+
 ├── 📄 app.py                              # Streamlit app code
+
 ├── 📄 good_model.pkl                       # Saved trained model
+
 ├── 📄 requirements.txt                     # All dependencies
+
 ├── 📄 README.md                            # Project documentation
+
 └── 📁 data/
       └── kidney_disease.csv               # Dataset
 
@@ -153,8 +166,11 @@ pip install -r requirements.txt
 
 📊 Results
 
-⦁	Best accuracy achieved: 98.75%
+
+⦁Best accuracy achieved: 98.75%
+
 ⦁	Model generalizes well on test data
+
 ⦁	Streamlit app provides real-time prediction
 
 🚀 Conclusion
@@ -163,8 +179,11 @@ This project demonstrates that Machine Learning can reliably predict Chronic Kid
 The deployed Streamlit app is fast, easy to use, and doctor-friendly.
 
 Future improvements:
+
 ⦁	Deploy on AWS / Render
+
 ⦁	Add SHAP explainability
+
 ⦁	Expand dataset for robustness
 
 🤝 Contributing
