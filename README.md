@@ -109,12 +109,19 @@ Models trained:
 
 🔍 Hyperparameter Tuning
 
+
 ⦁	GridSearchCV was used to tune:
+
 ⦁	n_estimators
+
 ⦁	max_depth
+
 ⦁	min_samples_split
+
 ⦁	criterion
+
 ⦁	Final optimized model was saved as:
+
 ⦁	good_model.pkl
 
 🌐 Streamlit Application
@@ -126,12 +133,17 @@ streamlit run app.py
 
 App Features:
 
+
 ✔ Input fields for all 24 features
+
 ✔ Automatic categorical encoding
+
 ✔ Displays prediction as CKD or Not CKD
+
 ✔ Uses the trained pickle model
 
 📁 Project Folder Structure
+
 📦 chronic-kidney-disease-prediction
 
 │
